@@ -1,0 +1,39 @@
+#title{
+    background-color: #F2F9FF;
+}
+
+.sticky-top {
+    z-index: 1030; /* Adjust as needed to ensure it stays above other elements */
+}
+
+.icon-base{
+
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.75rem;
+
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.line {
+    width: 2px;
+    height: 100px;
+    background-color: rgb(220, 212, 212);
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+}
+
+@media (max-width: 768px) {
+    .line {
+        height: 50px; /* Shorter lines for smaller screens */
+    }
+}
